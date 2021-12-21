@@ -10,6 +10,7 @@ app.get('/',async(req,res)=>{
 
    //retrieving the input number from api
    const userinput=req.body.number;
+   console.log(userinput);
 
    //function to reverse a number: it is a arrow function of javascript
    const reversedNum = num => parseFloat(num.toString().split('').reverse().join('')) * Math.sign(num);

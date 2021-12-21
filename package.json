@@ -2,7 +2,7 @@
   "name": "palindrome-check-api",
   "version": "1.0.0",
   "description": "an api that checks whether number passed through params is palindrome or not",
-  "main": "a\\",
+  "main": "palindrome.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
